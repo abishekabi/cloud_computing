@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 from flask import jsonify
-APP_VERSION = 1.0
+APP_VERSION = 2.0
 
 @app.route('/')
 def hello_world():
